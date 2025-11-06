@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "python-shiny",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.12.2",
+    "package_manager": {
+      "name": "pip",
+      "version": "25.3",
+      "package_file": "requirements.txt"
+    }
+  },
+  "environment": {
+    "python": {
+      "requires": "~=3.12.0"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "4a57fcddab4c817e7ec6b76437247c69"
+    },
+    ".gitignore": {
+      "checksum": "64ade73f4586bbd5612782b751e67950"
+    },
+    ".python-version": {
+      "checksum": "4b1cfc3892438e7ba57e2ab1bf47d895"
+    },
+    "LICENSE": {
+      "checksum": "178c3f05cfc716c4261a5b94be5c6bbf"
+    },
+    "README.md": {
+      "checksum": "5c62b5c13cc67cb20f35891830959968"
+    },
+    "app.py": {
+      "checksum": "3bb2b0a40b9376974572fd1333e4d05c"
+    },
+    "style.css": {
+      "checksum": "2c5e9a08ba27f74749f86a2d418fbbe6"
+    },
+    "words.py": {
+      "checksum": "2366673a765682cac2e86797b9f40140"
+    }
+  }
+}
